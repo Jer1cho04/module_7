@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Module-7</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation container">
+            <p class="logo"><a href="#">Golden</a></p>
+            <ul class="navigation-menu">
+                <li class="navigation-menu__item"><a href="#" class="navigation-menu__item__link">Home</a></li>
+                <li class="navigation-menu__item"><a href="#" class="navigation-menu__item__link">Services</a></li>
+                <li class="navigation-menu__item"><a href="#" class="navigation-menu__item__link">Portfolio</a></li>
+                <li class="navigation-menu__item"><a href="#" class="navigation-menu__item__link">About</a></li>
+                <li class="navigation-menu__item"><a href="#" class="navigation-menu__item__link">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section class="section-services container">
+            <h2 class="section-title services">Services</h2>
+            <p class="section-title__description">Proin iaculis purus consequat sem cure.</p>
+            <ul class="services-list">
+                <li class="services-list__item">
+                    <h3 class="services-list__item__title services-commerce-item">E-Commerce</h3>
+                    <p class="services-list__item__text">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+                <li class="services-list__item">
+                    <h3 class="services-list__item__title services-responsive-item">Responsive Web</h3>
+                    <p class="services-list__item__text">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+                <li class="services-list__item">
+                    <h3 class="services-list__item__title services-security-item">Web Security</h3>
+                    <p class="services-list__item__text">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="section-contact">
+            <div class="container">
+                <h2 class="section-title contact">Contact us</h2>
+                <p class="section-title__description">Proin iaculis purus consequat sem cure.</p>
+                <form action="#" class="contact-form">
+                    <div class="contact-form_wrapper">
+                        <ul class="contact-form_input-list">
+                            <li class="contact-form_input-list_item"><input name="user_name" type="text"
+                                    class="contact-form__input" placeholder="your Name *" required minlength="2">
+                            </li>
+                            <li class="contact-form_input-list_item"><input name="user_email" type="email"
+                                    class="contact-form__input" placeholder="your e-mail *" required>
+                            </li>
+                            <li class="contact-form_input-list_item"><input name="user_subject" type="text"
+                                    class="contact-form__input" placeholder="subject">
+                            </li>
+                        </ul>
+                        <textarea name="user_message" class="contact-form__message" placeholder="Your message *"
+                            required minlength="5"></textarea>
+                    </div>
+                    <button class="contact-form__btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
